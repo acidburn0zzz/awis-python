@@ -1,4 +1,4 @@
 awis-python
 ===========
 
-Demonstrates how to query Amazon's Alexa Web Information Service in python.
+A python script that genrates a custom url and query string used to query Amazon's Alexa Web Information Service (AWIS).

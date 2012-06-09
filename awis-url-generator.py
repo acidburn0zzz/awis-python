@@ -4,14 +4,14 @@ import hmac
 import hashlib
 import base64
 
-#Query Options
-Action = "UrlInfo"
+#Query Options  # refer to AWIS API reference for full details.
+Action = "UrlInfo" 
 Url = "www.huffingtonpost.com/"
 ResponseGroup = "TrafficData"
 
 #Config Options
 PATH_TO_SECRET = 'c:\\users\\john\\aws-secret.txt' #Path to ANSI encoded text file with secret.
-AWSAccessKeyId = "AKIAJVPTTW3SPGN4OKQQ"
+AWSAccessKeyId = "AKIAJVPTTW3SPGN4OKQQ" #Enter your AWS access id.
 
 #Don't edit below.
 f = open('c:\\users\\john\\aws-secret.txt') 
